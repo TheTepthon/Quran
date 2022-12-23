@@ -2,7 +2,7 @@ FROM python:3.8-slim-buster
 
 WORKDIR /app
 COPY requirements.txt requirements.txt
-RUN python -m pip install --upgrade pip requirements.txt
+RUN pip3 install --upgrade pip -r requirements.txt
 
 COPY . .
 
