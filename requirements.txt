@@ -1,4 +1,4 @@
---root-user-action=ignore
+--root-user-action
 aiohttp
 tgcrypto
 pyrogram
