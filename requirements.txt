@@ -1,0 +1,9 @@
+aiohttp
+tgcrypto
+pyrogram
+Python-arq
+asyncio
+aiohttp 
+aiofiles
+itsdangerous==1.1.0
+markupsafe==1.1.1
