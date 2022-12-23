@@ -31,6 +31,6 @@ jobs:
           commit_message: 'اعداد تلقائي'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: anes10a
-          commit_user_email: anes10a@users.noreply.github.com
-          commit_author: anes10a <anes10a@users.noreply.github.com>
+          commit_user_name: TheTepthon
+          commit_user_email: TheTepthon@users.noreply.github.com
+          commit_author: TheTepthon <TheTepthon@users.noreply.github.com>
