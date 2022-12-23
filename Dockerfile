@@ -4,7 +4,6 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN python -m pip install -r requirements.txt
 ENV PIP_ROOT_USER_ACTION=ignore
-RUN python -m pip install -r requirements.txt
 RUN pip install --upgrade pip
 COPY . .
 
