@@ -4,7 +4,7 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN pip3 install --upgrade pip
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-ENV --root-user-action=ignore
+ENV pip3--root-user-action=ignore
 COPY . .
 
 CMD [ "bash", "start.sh"]
