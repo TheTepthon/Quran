@@ -4,7 +4,7 @@ from server import web_server
 
 from pyrogram import Client
 
-from pytgcalls import pytgcalls 
+from pytgcalls import PyTgCalls 
 
 from pytgcalls import idle
 
